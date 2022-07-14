@@ -5,7 +5,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(179, 6, 223, 0.46);
 }
 
 .topnav a {
@@ -24,7 +24,7 @@ body {
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgba(179, 6, 223, 0.46);
     color: white;
 }
 
@@ -102,7 +102,7 @@ hr {
     margin-bottom: 30px;
 }
 footer {
-    background-color: #d80ed5;
+    background-color: rgba(179, 6, 223, 0.46);
     height: 100px;
     width: 100%;
 }
