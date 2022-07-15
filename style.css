@@ -109,11 +109,34 @@ hr {
 }
 footer {
     background-color: rgba(179, 6, 223, 0.46);
-    height: 190px;
+    height:auto;
     width: 100%;
     font-family: cursive;
+    padding-top: 40px;
 }
-.iconelocalizacao {
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.diminuiricone {
+    height: 36px;
+    width: 36px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+ul > li {
+    text-decoration: none;
+    margin: 0 14px;
+}
+/* .iconelocalizacao {
     height: 36px;
     width: 36px;
 }
@@ -130,7 +153,7 @@ footer {
 .redes {
     margin-left: 50%;
     padding: 20px;
-}
+} */
 
 .button {
     background: rgba(179, 6, 223, 0.46);
