@@ -136,25 +136,6 @@ ul > li {
     text-decoration: none;
     margin: 0 14px;
 }
-/* .iconelocalizacao {
-    height: 36px;
-    width: 36px;
-}
-.local {
-    display:flex;
-    margin-left: 50%;
-}
-.logo {
-    margin-bottom: 18px;
-    margin-right: 80px;
-    margin-left: 50%;
-    margin-top: 60px;
-}
-.redes {
-    margin-left: 50%;
-    padding: 20px;
-} */
-
 .button {
     background: rgba(179, 6, 223, 0.46);
     border-radius: 20px;
