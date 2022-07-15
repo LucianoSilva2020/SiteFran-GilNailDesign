@@ -88,7 +88,8 @@ body {
     display: flex;
 }
 .prgf {
-    font-family: cursive;
+    font-family:monospace;
+    font-size: 14px;
 }
 .pictur > img {
     border-radius: 14px;
@@ -99,7 +100,7 @@ body {
 .paragrafo > p {
     margin: 10px;
     font-family:cursive;
-    font-size: 34px;
+    font-size: 40px;
 }
 
 hr {
@@ -119,7 +120,8 @@ footer {
     height: 90px;
     width: 100px;
     display: inline-block;
-    font-family:cursive;
+    font-family:monospace;
+    font-size: 20px;
 }
 
 [data-anime] {
