@@ -63,7 +63,7 @@ body {
 
 .imgheader {
     width: 100%;
-    height: 440px;
+    height: 400px;
 }
 
 .img {
@@ -109,8 +109,27 @@ hr {
 }
 footer {
     background-color: rgba(179, 6, 223, 0.46);
-    height: 100px;
+    height: 190px;
     width: 100%;
+    font-family: cursive;
+}
+.iconelocalizacao {
+    height: 36px;
+    width: 36px;
+}
+.local {
+    display:flex;
+    margin-left: 50%;
+}
+.logo {
+    margin-bottom: 18px;
+    margin-right: 80px;
+    margin-left: 50%;
+    margin-top: 60px;
+}
+.redes {
+    margin-left: 50%;
+    padding: 20px;
 }
 
 .button {
@@ -118,7 +137,7 @@ footer {
     border-radius: 20px;
     text-decoration: none;
     height: 90px;
-    width: 100px;
+    width: 110px;
     display: inline-block;
     font-family:monospace;
     font-size: 20px;
