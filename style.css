@@ -115,7 +115,7 @@ hr {
 footer {
     background-color: rgba(179, 6, 223, 0.46);
     height: auto;
-    width: 100%;
+    width:auto;
     font-family: cursive;
     padding-top: 40px;
 }
