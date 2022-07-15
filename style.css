@@ -99,6 +99,7 @@ body {
 .paragrafo > p {
     margin: 10px;
     font-family:cursive;
+    font-size: 34px;
 }
 
 hr {
