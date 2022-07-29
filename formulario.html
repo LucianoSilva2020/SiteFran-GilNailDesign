@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar</title>
+    <style>
+        .form {
+            border: 1px solid;
+            padding: 30px;
+            box-shadow: 5px 10px rgba(29, 28, 29, 0.319);
+            margin: 40px;
+            border-radius: 10px;
+        }
+
+        .input-box {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.1rem;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 10px;
+            background-color: azure;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        div>input {
+            margin: 6px;
+            margin-bottom: 1.1rem;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 6px;
+            background-color: rgb(52, 49, 49);
+            color: rgb(241, 238, 234);
+        }
+
+        div>button {
+            margin: 6px;
+            margin-bottom: 1.1rem;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 6px;
+            background-color: rgb(52, 49, 49);
+            color: rgb(241, 238, 234);
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+        <h1>Agendar</h1>
+        <input type="hidden" name="accesskey" value="cc104780-6b19-43c8-bb42-be876138c188">
+        <input type="hidden" name="redirectTo" value="https://lucianosilva2020.github.io/SiteFran-GilNailDesign/">
+        <p>nome</p>
+        <input class="input-box" type="text" name="name" placeholder="Primeiro nome" required>
+        <p>Apelido</p>
+        <input class="input-box" type="text" name="apelido" placeholder="Apelido que é conhecida">
+        <p>E-mail</p>
+        <input class="input-box" type="email" name="email" placeholder="Digite seu email" required>
+        <p>WhatsApp</p>
+        <input class="input-box" type="number" name="WhatsApp" placeholder="(xx)x xxxx-xxxx" required> <br>
+                
+        <div>
+            <button>Enviar</button>
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+
+</html>
