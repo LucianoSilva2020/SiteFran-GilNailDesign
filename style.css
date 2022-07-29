@@ -107,15 +107,18 @@ body {
     font-size: 16px;
 }
 
+.paragrafo>h1 {
+    margin: 10px;
+}
+
 hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 40px;
 }
 
 footer {
     background-color: rgba(179, 6, 223, 0.46);
     height: auto;
-    width:auto;
+    width: auto;
     font-family: cursive;
     padding-top: 40px;
 }
@@ -127,9 +130,10 @@ footer {
     flex-direction: column;
     text-align: center;
 }
-.footer-content > h4 {
+
+.footer-content>h4 {
     font-size: 28px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .diminuiricone {
@@ -200,4 +204,15 @@ ul>li>a {
     [data-anime="right"] {
         transform: translate3d(-100%, 0, 0);
     }
+}
+
+.form {
+    border: 1px solid;
+    padding: 30px;
+    box-shadow: 5px 10px rgba(180, 6, 223, 0.107);
+    margin: 40px;
+    border-radius: 10px;
+}
+.cor {
+    background-color:  rgba(180, 6, 223, 0.106);
 }
