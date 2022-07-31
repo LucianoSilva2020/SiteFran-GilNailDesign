@@ -36,25 +36,32 @@
             padding: 0.8rem;
             border: none;
             border-radius: 6px;
-            background-color: rgb(52, 49, 49);
+            background-color: rgb(154, 21, 21);
             color: rgb(241, 238, 234);
         }
 
-        div>button {
+        .button {
             margin: 6px;
             margin-bottom: 1.1rem;
             padding: 0.8rem;
             border: none;
             border-radius: 6px;
-            background-color: rgb(52, 49, 49);
+            background-color: rgb(35, 206, 40);
             color: rgb(241, 238, 234);
+        }
+        .datam {
+            margin-bottom: 1.1rem;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 10px;
+            background-color: azure;
         }
     </style>
 </head>
 
 <body>
     <form class="form" action="https://formsubmit.co/f88257362@gmail.com" method="POST">
-        <input type="hidden" name="_next" value="http://http://127.0.0.1:5501/sucesso.html">
+        <input type="hidden" name="_next" value="https://lucianosilva2020.github.io/SiteFran-GilNailDesign/index.html">
         <h1>Agendar</h1>
         <p>nome</p>
         <input class="input-box" type="text" name="name" placeholder="Primeiro nome" required>
@@ -63,11 +70,14 @@
         <p>E-mail</p>
         <input class="input-box" type="email" name="email" placeholder="Digite seu email" required>
         <p>WhatsApp</p>
-        <input class="input-box" type="number" name="WhatsApp" placeholder="(xx)x xxxx-xxxx" required> <br>
+        <input class="input-box" type="number" name="WhatsApp" placeholder="(xx)x xxxx-xxxx" required>
+        <p>Data</p>
+        <input class="datam" type="date" name="data">
+        <br>
 
         <div>    
             <input type="reset" value="Limpar">
-            <input type="submit" value="Enviar">
+            <input class="button" type="submit" value="Enviar">
         </div>
     </form>
 </body>
