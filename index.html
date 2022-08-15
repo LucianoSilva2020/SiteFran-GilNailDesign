@@ -24,7 +24,13 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-    <img class="imgheader" src="imagens/capa.jpg" alt="">
+
+    <picture>
+        <!--Essa ordem nao pode ser trocada, sempre do menor para o maior.-->
+        <source media="(max-width:700px)" srcset="imagens/capaaa.jpg" type="image/jpg">
+        <img class="imgheader" src="imagens/capa.jpg" alt="">        <
+    </picture>
+
     <section class="imageButaoP">
         <div data-anime="up">
             <img class="img" src="imagens/fotoPrincipal.jpg" alt="">
